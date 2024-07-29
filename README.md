@@ -2,12 +2,10 @@ Speedometer is a SwiftUI library that provides customizable speedometer gauges f
 This project is part of my exercise with SwiftUI drawings and It's also worth mentioning that it needs to be more flexible.
 
 
-
 https://github.com/user-attachments/assets/c7c6258c-380c-4e4e-bb5f-a194fed8cbb4
 
-![Simulator Screenshot - iPhone 15 - 2024-07-29 at 12 17 34](https://github.com/user-attachments/assets/b1274d2e-4848-4069-a5aa-392247cb2875)
-
-![Simulator Screenshot - iPhone 15 - 2024-07-29 at 12 17 09](https://github.com/user-attachments/assets/26f59faa-3cbc-40e9-91b2-5ed7952db207)
+![Simulator Screenshot - iPhone 15 - 2024-07-29 at 12 17 34 (1)](https://github.com/user-attachments/assets/509854a5-b886-4037-8dbc-6ef9f76e5de4)
+![Simulator Screenshot - iPhone 15 - 2024-07-29 at 12 17 09 (1)](https://github.com/user-attachments/assets/f2e2a526-fc1b-41eb-8612-2d019413f51d)
 
 Features:
 
