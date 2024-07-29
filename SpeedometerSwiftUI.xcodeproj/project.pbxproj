@@ -11,6 +11,11 @@
 		5CA94B532C4FC8B20049B889 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B522C4FC8B20049B889 /* ContentView.swift */; };
 		5CA94B552C4FC8B40049B889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA94B542C4FC8B40049B889 /* Assets.xcassets */; };
 		5CA94B582C4FC8B40049B889 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA94B572C4FC8B40049B889 /* Preview Assets.xcassets */; };
+		5CA94B622C554E940049B889 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B612C554E940049B889 /* ArcShape.swift */; };
+		5CA94B642C554F370049B889 /* Ticks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B632C554F370049B889 /* Ticks.swift */; };
+		5CA94B662C5550890049B889 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B652C5550890049B889 /* Indicator.swift */; };
+		5CA94B682C5550BD0049B889 /* NumbersVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B672C5550BD0049B889 /* NumbersVIew.swift */; };
+		5CA94B6B2C55529E0049B889 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA94B6A2C55529E0049B889 /* GaugeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5CA94B522C4FC8B20049B889 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CA94B542C4FC8B40049B889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA94B572C4FC8B40049B889 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5CA94B612C554E940049B889 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		5CA94B632C554F370049B889 /* Ticks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticks.swift; sourceTree = "<group>"; };
+		5CA94B652C5550890049B889 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		5CA94B672C5550BD0049B889 /* NumbersVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersVIew.swift; sourceTree = "<group>"; };
+		5CA94B6A2C55529E0049B889 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		5CA94B4F2C4FC8B20049B889 /* SpeedometerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5CA94B692C5552130049B889 /* Views */,
 				5CA94B502C4FC8B20049B889 /* SpeedometerSwiftUIApp.swift */,
 				5CA94B522C4FC8B20049B889 /* ContentView.swift */,
+				5CA94B602C554E2E0049B889 /* Shapes */,
 				5CA94B542C4FC8B40049B889 /* Assets.xcassets */,
 				5CA94B562C4FC8B40049B889 /* Preview Content */,
 			);
@@ -65,6 +77,25 @@
 				5CA94B572C4FC8B40049B889 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CA94B602C554E2E0049B889 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				5CA94B612C554E940049B889 /* ArcShape.swift */,
+				5CA94B632C554F370049B889 /* Ticks.swift */,
+				5CA94B652C5550890049B889 /* Indicator.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		5CA94B692C5552130049B889 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CA94B672C5550BD0049B889 /* NumbersVIew.swift */,
+				5CA94B6A2C55529E0049B889 /* GaugeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA94B532C4FC8B20049B889 /* ContentView.swift in Sources */,
+				5CA94B662C5550890049B889 /* Indicator.swift in Sources */,
+				5CA94B682C5550BD0049B889 /* NumbersVIew.swift in Sources */,
 				5CA94B512C4FC8B20049B889 /* SpeedometerSwiftUIApp.swift in Sources */,
+				5CA94B642C554F370049B889 /* Ticks.swift in Sources */,
+				5CA94B622C554E940049B889 /* ArcShape.swift in Sources */,
+				5CA94B6B2C55529E0049B889 /* GaugeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
